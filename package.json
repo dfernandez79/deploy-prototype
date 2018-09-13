@@ -1,6 +1,6 @@
 {
   "name": "deploy-prototype",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Publish a UI prototype to GitHub Pages",
   "main": "index.js",
   "author": "Diego Fernandez <diegof79@gmail.com>",
