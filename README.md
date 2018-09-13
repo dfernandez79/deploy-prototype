@@ -1,3 +1,5 @@
+# deploy-prototype
+
 Deploy prototype it's a small CLI tool built on top of [gh-pages] with the
 intention of deploying UI prototypes to GitHub Pages.
 
@@ -10,5 +12,28 @@ branch. So you can check and share your prototype variations.
 
 [gh-pages] do all the work; this tool adds the additional functionality of getting
 the current branch name.
+
+## Install
+
+> Note: This tool requires git to work.
+
+NPM:
+```
+npm i -g deploy-prototype
+```
+
+Yarn:
+```
+yarn global add deploy-prototype
+```
+
+## Usage
+
+```
+deploy-prototype --help
+```
+
+## License
+MIT
 
 [gh-pages]: https://github.com/tschaub/gh-pages
