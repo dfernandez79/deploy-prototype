@@ -1,0 +1,17 @@
+{
+  "name": "deploy-prototype",
+  "version": "1.0.0",
+  "description": "Publish a UI prototype to GitHub Pages",
+  "main": "index.js",
+  "author": "Diego Fernandez <diegof79@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "deploy-prototype": "bin/deploy-prototype.js"
+  },
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "mri": "^1.1.1",
+    "shelljs": "^0.8.2"
+  }
+}
