@@ -9,6 +9,9 @@
   "bin": {
     "deploy-prototype": "bin/deploy-prototype.js"
   },
+  "scripts": {
+    "test": "true"
+  },
   "dependencies": {
     "gh-pages": "^2.0.1",
     "mri": "^1.1.1",
