@@ -10,7 +10,7 @@
     "deploy-prototype": "bin/deploy-prototype.js"
   },
   "dependencies": {
-    "gh-pages": "^1.2.0",
+    "gh-pages": "^2.0.1",
     "mri": "^1.1.1",
     "shelljs": "^0.8.2"
   }
