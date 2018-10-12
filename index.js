@@ -16,12 +16,13 @@ Git stderr: ${result.stderr}`
   }
 }
 
-function deployPrototype(src, dest, { branch }) {
+function deployPrototype(src, dest, { branch, tag, add }) {
   const destination = dest === undefined ? getDestinationFromGit() : dest;
   ghpages.publish(src, {
     branch,
+    tag,
     dest: destination,
-    add: true,
+    add,
   });
 }
 
